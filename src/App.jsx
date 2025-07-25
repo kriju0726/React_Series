@@ -7,15 +7,15 @@
 
 
 
-//import {Todo} from "./components/projects/Todo/Todo";
+import {Todo} from "./components/projects/Todo/Todo";
 
-import {Keys} from "./Keys";
+//import {Keys} from "./Keys";
 
 export const App = () => {
   return (
     <section >
      
-      {<Keys />}
+      {<Todo />}
       </section>
   );
 };
